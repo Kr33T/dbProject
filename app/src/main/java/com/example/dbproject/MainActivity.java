@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 deleteBtn.setOnClickListener(this);
                 params.weight = 1.0f;
                 deleteBtn.setLayoutParams(params);
-                deleteBtn.setText("Удалить запись");
+                deleteBtn.setText("-");
                 deleteBtn.setTextSize(12);
                 deleteBtn.setId(cursor.getInt(idIndex));
                 dbOutputRow.addView(deleteBtn);
